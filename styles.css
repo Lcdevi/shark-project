@@ -11,89 +11,87 @@ body {
   line-height: 3.5em;
 }
 
-
-
-ul, ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
-    background-color: rgb(25, 33, 41);
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-  
-  .nav-bar a{
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-  }
-  
-  .nav-bar-ul {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .nav-bar-ul li {
-    list-style-type: none;
-    text-align: center;
-  }
+  background-color: rgb(25, 33, 41);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
 
-  .header {
-    position: 0 0;
-    repeat: no-repeat;
-    size: cover;
-    height: 650px;
-    padding-top: 50px;
-    position: relative;
-  }
-  
-  h1 {
-    font-size: 9em;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1em;
-  }
-  
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 75px 0;
-  }
-  
-  .quote {
-    font-size: 2.5em;
-    position: absolute;
-    left: 10%;
-    bottom: 100px;
-  }
-  
-.about-laura ul, .about-max ul {
-    display: flex;
-    flex-direction: column;
-    color: black;
-    text-align: center;
-    font-size: 2em;
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header {
+  position: 0 0;
+  size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.quote {
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
+}
+
+.about-laura ul,
+.about-max ul {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  font-size: 2em;
 }
 
 #about li {
-    color: #001c47;
+  color: #001c47;
 }
 
 li span {
-    color:white;
+  color: white;
 }
 
 #about {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 0 150px 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 40px 0;
 }
-
 
 .nav-bar {
   background-color: rgb(25, 33, 41);
@@ -136,30 +134,59 @@ h1 {
 }
 
 h2 {
-    font-size: 4em;
-    color: white;
-    text-align: center;
-    background-color: #335d75;
-    transform: skew(9deg,0deg);
-    font-style: italic;
-    width: 350px;
-    height: 37px;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  background-color: #335d75;
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  width: 350px;
+  height: 37px;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 75px 0;
+  padding: 75px 0 30px;
 }
 
 .quote {
   font-size: 2.5em;
   position: absolute;
   left: 10%;
-  bottom: 100px;
+  bottom: 70px;
 }
 
 .shark-team-bio {
   text-align: center;
   font-size: 2em;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.9em;
+  padding: 40px 350px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.map-frame {
+  align-content: left;
+  height: 375px;
+  width: 50%;
 }
