@@ -11,7 +11,11 @@ body {
   line-height: 3.5em;
 }
 
-
+section img {
+  width: 200px;
+  border: 1px solid rgb(25, 33, 41);
+  border-radius: 50%;
+}
 
 ul, ol {
     list-style-type: none;
@@ -72,6 +76,12 @@ ul, ol {
     bottom: 100px;
   }
   
+.about-laura, .about-max {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-laura ul, .about-max ul {
     display: flex;
     flex-direction: column;
@@ -139,7 +149,7 @@ h2 {
     font-size: 4em;
     color: white;
     text-align: center;
-    background-color: #335d75;
+    background-color: rgb(25, 33, 41);
     transform: skew(9deg,0deg);
     font-style: italic;
     width: 350px;
