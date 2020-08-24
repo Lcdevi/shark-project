@@ -9,6 +9,8 @@ body {
   font-family: Montserrat;
   font-size: 10px;
   line-height: 3.5em;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 section img {
@@ -88,10 +90,14 @@ ul, ol {
     color: black;
     text-align: center;
     font-size: 2em;
+    background-color: rgba(0, 58, 105, 0.4);
+    width: 550px;
+    height: auto;
+    padding: 10px;
 }
 
 #about li {
-    color: #001c47;
+    color:white;
 }
 
 li span {
@@ -172,4 +178,27 @@ h2 {
 .shark-team-bio {
   text-align: center;
   font-size: 2em;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 1.9em;
+  padding: 40px 350px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.map-frame {
+  align-content: left;
+  height: 375px;
+  width: 50%;
 }
