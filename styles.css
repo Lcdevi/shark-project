@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
 
 html,
 body {
@@ -37,13 +38,14 @@ body {
 .header {
   position: 0 0;
   size: cover;
-  height: 650px;
-  padding-top: 50px;
+  height: 500px;
+  padding-top: 40px;
   position: relative;
 }
 
 h1 {
   font-size: 9em;
+  font-family: Ultra;
   text-align: center;
   text-transform: uppercase;
   line-height: 1em;
