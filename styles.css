@@ -11,6 +11,8 @@ body {
   line-height: 3.5em;
 }
 
+
+
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -71,22 +73,27 @@ ul, ol {
   }
   
 .about-laura ul, .about-max ul {
+    display: flex;
+    flex-direction: column;
     color: black;
-    width: 400px;
     text-align: center;
     font-size: 2em;
 }
 
-li {
+#about li {
+    color: #001c47;
+}
+
+li span {
+    color:white;
 }
 
 #about {
     display: flex;
     justify-content: space-around;
-    border: 1px solid white;
-    width: auto;
+    padding: 0 0 150px 0;
 }
-}
+
 
 .nav-bar {
   background-color: rgb(25, 33, 41);
@@ -132,6 +139,11 @@ h2 {
     font-size: 4em;
     color: white;
     text-align: center;
+    background-color: #335d75;
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    width: 350px;
+    height: 37px;
 }
 
 .container {
