@@ -2,6 +2,7 @@
 
 html,
 body {
+  background-image: url("./img/les-dents-de-la-mer-a12.jpg");
   margin: 0;
   padding: 0;
   font-family: Roboto;
@@ -35,7 +36,6 @@ body {
   }
 
   .header {
-    background-image: "./img/les-dents-de-la-mer-a12.jpg";
     position: 0 0;
     repeat: no-repeat;
     size: cover;
@@ -48,6 +48,7 @@ body {
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
+    line-height: 1em;
   }
   
   .container {
