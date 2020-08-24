@@ -5,62 +5,64 @@ body {
   background-image: url("./img/les-dents-de-la-mer-a12.jpg");
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 10px;
   line-height: 3.5em;
-  line-weight: 300;
 }
 
 .nav-bar {
-    background-color: rgb(25, 33, 41);
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-  
-  .nav-bar a{
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-  }
-  
-  .nav-bar-ul {
-    width 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .nav-bar-ul li {
-    list-style-type: none;
-    text-align: center;
-  }
+  background-color: rgb(25, 33, 41);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
 
-  .header {
-    position: 0 0;
-    repeat: no-repeat;
-    size: cover;
-    height: 650px;
-    padding-top: 50px;
-    position: relative;
-  }
-  
-  h1 {
-    font-size: 9em;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1em;
-  }
-  
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 75px 0;
-  }
-  
-  .quote {
-    font-size: 2.5em;
-    position: absolute;
-    left: 10%;
-    bottom: 100px;
-  }
-  
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header {
+  position: 0 0;
+  size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.quote {
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
+}
+
+.shark-team-bio {
+  text-align: center;
+  font-size: 2em;
+}
