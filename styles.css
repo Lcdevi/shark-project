@@ -8,7 +8,10 @@ body {
   font-family: Roboto;
   font-size: 10px;
   line-height: 3.5em;
-  line-weight: 300;
+}
+
+ul, ol {
+    list-style-type: none;
 }
 
 .nav-bar {
@@ -24,7 +27,7 @@ body {
   }
   
   .nav-bar-ul {
-    width 1200px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -64,3 +67,15 @@ body {
     bottom: 100px;
   }
   
+.about-laura, .about-max {
+    color: white;
+    background: radial-gradient(circle, rgba(97,128,146,1) 0%, rgba(36,76,101,1) 100%);
+    width: 400px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    width: auto;
+}
